@@ -32,7 +32,7 @@ function cleanCell(value: string): string {
     .replace(/<a[^>]*href="([^"]*)"[^>]*>.*?<\/a>/gi, "$1")
     .replace(/<[^>]+>/g, "")
     .replace(/\`/g, "")
-    .replace(/**/g, "")
+    .split("**").join("")
     .trim();
 }
 
