@@ -6,14 +6,18 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/node.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "latest",
-    "zod": "^4.0.0"
+    "zod": "^4.0.0",
+    "@modelcontextprotocol/node": "latest",
+    "tsx": "^4.20.0"
   },
   "devDependencies": {
     "typescript": "^5.9.0",
-    "wrangler": "^4.0.0"
+    "wrangler": "^4.0.0",
+    "@types/node": "^24.0.0"
   }
 }

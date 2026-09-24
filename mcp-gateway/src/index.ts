@@ -112,7 +112,7 @@ function asText(data: unknown) {
   };
 }
 
-const handler = createMcpHandler(() => {
+export const handler = createMcpHandler(() => {
   const server = new McpServer({
     name: "awesome-freellm-apis",
     version: "1.0.0",

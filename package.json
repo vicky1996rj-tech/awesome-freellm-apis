@@ -1,0 +1,11 @@
+{
+  "name": "awesome-freellm-apis-mcp-host",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix mcp-gateway install",
+    "start": "npm --prefix mcp-gateway start"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
